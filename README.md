@@ -7,21 +7,35 @@
 <p align="center">
   <img src="ss/Screenshot 2021-05-22 235030.png" alt="accessibility text">
 </p>
-![](ss/Screenshot 2021-05-22 235030.png)
-![](ss/Screenshot 2021-05-22 235117.png)
+<p align="center">
+  <img src="ss/Screenshot 2021-05-22 235117.png" alt="accessibility text">
+</p>
+
 
 
 - Post
-![](ss/post 1.png)
-![](ss/post 2.png)
+<p align="center">
+  <img src="ss/post 1.png" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="ss/post 2.png" alt="accessibility text">
+</p>
 
 
 
 - Put 
-![](ss/put 1.png)
-![](ss/put 2.png)
+<p align="center">
+  <img src="ss/put 1.png" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="ss/put 2.png" alt="accessibility text">
+</p>
 
 
 - Delete
-![](ss/put 1.png)
-![](ss/put 2.png)
+<p align="center">
+  <img src="ss/delete 1.png" alt="accessibility text">
+</p>
+<p align="center">
+  <img src="ss/delete 2.png" alt="accessibility text">
+</p>
