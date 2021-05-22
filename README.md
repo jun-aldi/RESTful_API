@@ -5,8 +5,7 @@
 
 - Get
 <p align="center">
-  <img src="your_relative_path_here" width="350" title="hover text">
-  <img src="ss/Screenshot 2021-05-22 235030.png" width="350" alt="accessibility text">
+  <img src="ss/Screenshot 2021-05-22 235030.png" alt="accessibility text">
 </p>
 ![](ss/Screenshot 2021-05-22 235030.png)
 ![](ss/Screenshot 2021-05-22 235117.png)
