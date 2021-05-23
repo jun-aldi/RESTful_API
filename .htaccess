@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^mahasisawa/?$ index.php [NC,L]
+RewriteRule ^mahasiswa/([0-9]+)/?$ index.php?id=$1 [NC,L]
