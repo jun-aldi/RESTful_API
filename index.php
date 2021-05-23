@@ -3,12 +3,14 @@ include_once("koneksi.php");
 $db = new koneksiDB();
 $koneksi = $db->getkoneksi();
 $request = $_SERVER['REQUEST_METHOD'];
+$uri_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$uri_segments = explode('/', $uri_path);
 switch($request){
     case 'GET' :
-        if(empty($_REQUEST['nim'])){
+        if(empty($uri_segments[3])){
             get_mahasiswa();
         }else{
-            $nim = $_REQUEST['nim'];
+            $nim = (string)($uri_segments[3]);
             get_mahasiswa($nim);
         }
         break;
@@ -17,11 +19,11 @@ switch($request){
         break;
     
     case 'PUT' :
-        $nim = $_REQUEST['nim'];
+        $nim = (string)($uri_segments[3]);
         update_mahasiswa($nim);
         break;
     case 'DELETE' :
-        $nim = $_REQUEST['nim'];
+        $nim = (string)($uri_segments[3]);
         delete_mahasiswa($nim);
         break;
     default :
